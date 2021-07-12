@@ -1,0 +1,13 @@
+.container {
+    background: rgba(200, 203, 205, 0.57);
+    padding: 50px 70px;
+    width: 70%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  #male, #female, #name, #phone, #age {
+    display: block;
+    margin-bottom: 20px;
+  }

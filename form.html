@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="form.js"></script>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <input type="text" id="name" placeholder="Full name">
+      <input type="number" id="phone" placeholder="Phone">
+      <input type="text" id="age" onblur="Validate()" placeholder="age"> 
+      <label>Female</label>
+      <input type="radio" id="female" onchange="getGender()" name="gender" value="f" placeholder="gender">
+      <label>Male</label>
+      <input type="radio" id="male" onchange="getGender()"  name="gender" value="m" placeholder="gender">
+      <button onclick="submitForm()">Submit</button>
+    </div>
+    <div id="students">
+      <h3>List of students</h3>
+      <div class="students">
+      </div>
+      <p>-----------------</p>
+<!--      Display list of students -->
+    </div>
+  </div>
+</body>
+</html>
