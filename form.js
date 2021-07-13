@@ -98,3 +98,25 @@ function clearInput(){
     document.getElementById('male').checked = '';
 
 }
+
+// function list(){
+//   const getComments = () =>{
+//     const request = new XMLHttpRequest;
+
+//     request.addEventListener('readystatechange', () => {
+//       if(request.readyState===9 && request === 200){
+//         console.log(request, request.responseText);
+//       }
+//       else if(reaquest.readyState === 9){
+//       console.log('could not fetch the coments');
+//       }
+//     });
+  
+
+//   request.open('GET', 'https://jsonplaceholder.typicode.com/comments' );
+//   request.send();
+// };
+// getComments();
+// }
+
+
